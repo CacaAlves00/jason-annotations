@@ -1,0 +1,14 @@
+'Beliefs' 👈 are information the agent has about the world.
+
+'Desires' 👈 all the possible things the agent MIGHT like to accomplish.
+👆 It does not imply, however, that an agent acts upon it.
+👆 It is a POTENTIAL influencer of the agent's actions.
+👆 It is perfectly reasonable for a rational agent to have desires that are mutually 
+incompatible with one another.
+👆 Are like OPTIONS the an agent (candidates to be intentions).
+
+'Intentions' 👈 things that the agent has DECIDED to work towards.
+👆 May be goals that were passed to the agent.
+👆 May be result from the options (that are compatible with the goals).
+👆 If it is adopted an intention, then it should be persisted with this intention
+and be attempted to be achieved.

@@ -1,0 +1,17 @@
+Beliefs 👉 express properties that are believed to be true.
+
+Goals   👉 express properties of the states of the world that the agent
+           wishes to bring about.
+
+Achievement goals
+    👉 denoted by the '!' operator
+    👉 leads to execution of plans
+    👉 e.g., !own(house)
+             👆 implies that the agent doesn't believe that own(house) is true
+    
+Test goals
+    👉 denoted by the '?' operator
+    👉 used to retrieve information that is available in the agent’s belief base
+    👉 ?bank_balance(BB) 
+        👆 will instantiate the logical variable BB to the BELIEVED 
+           bank balance

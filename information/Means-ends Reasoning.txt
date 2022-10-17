@@ -1,0 +1,8 @@
+Means-ends reasoning 👉 the proccess of deciding how to achieve an end (i.e. an
+intention that you have chosen) using the available means (i.e. the actions that you
+can perform in your environment).
+Also known as planning.
+A 👉 planner takes as input:
+    👉 a goal (or intention)
+    👉 the agent's current beliefs about the state of the environment
+    👉 the actions available to the agent

@@ -1,0 +1,13 @@
+The key data structures in our agents will be beliefs, desires and intentions.
+How does an agent with beliefs, desires and intentions go from these to its actions ?
+
+Answer 👉 Practical Reasoning.
+i.e.,  👉 reasoning directed towards actions;
+i.e.,  👉 the proccess of figuring out what to do.
+
+👉 is a matter of weighing conflicting considerations for and against 
+competing options, where the relevant considerations are provided
+by what the agent desires and believes.
+
+The deliberations proccess yields 👉 intentions.
+Intentions are 👉 pro-attitudes (i.e., lead to actions).

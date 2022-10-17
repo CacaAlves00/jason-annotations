@@ -1,0 +1,26 @@
+Plans
+    👉 triggered by changes in the beliefs and goals
+    👉 has a triggering event, a context and a body
+        👆 triggering_event : context <- body.
+            👆 if context is nothing, it'll considered  to be true
+    
+Context of a plan
+    👉 Logical operators: & and |
+    👉 any predicates in the context are to be checked against the agent's belief base
+    👉 syntax: l            meaning: agent believes l is true
+    👉 syntax: ~l           meaning: agent believes l is false
+    👉 syntax: not l        meaning: agent does not believe l is true
+    👉 syntax: not ~l       meaning: agent does not believe l is false
+
+Body of a plan
+    👉 is represented by a sequence of formulæ, each separated from the other by ';'
+    👉 i.e., a plan body is a sequence of formulæ to be executed
+
+There are six types of formulæ
+    👉 actions
+    👉 achievement goals
+    👉 test goals
+    👉 mental notes
+    👉 internal actions
+    👉 expressions
+    

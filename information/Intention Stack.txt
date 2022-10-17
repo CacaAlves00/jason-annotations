@@ -1,0 +1,14 @@
+When the agent starts up, the goal to be achieve is pushed onto a stack, called 
+the 👉 intention stack.
+This stacks contains all the 👉 goals that are pending achievement.
+The agent then searches through its plan library to see that plans
+have the goal on the top of the intention stack as their post condition.
+
+Plan structure 👉 goal: context <- body
+
+The set of plans that 
+    👉 achieve the goal
+    👉 have their context (i.e., their pre-conditions) satisfied
+become the possible 👉 options for the agent
+
+The process of selecting between different possible plans is called 👉 deliberation.

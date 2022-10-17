@@ -1,0 +1,42 @@
+Actions
+    👉 is a predicate
+    👉 e.g., rotate(left_arm,45)
+    👉 e.g., rotate_right_arm(90)
+    👉 e.g., call(john)
+    👉 blocks the execution of the plan until its completion
+    👉 we need to be sure that any variables used in the action become instantiated 
+       before the action is executed 
+
+Achievement goals
+    👉 blocks the execution until the goal is achieved
+    👉 using the '!!' operator prevents the goal to block the execution
+    👉 is be added to the current goals by prefixing the literal with the '!' operator
+    👉 e.g., !happy(customer)
+    👉 e.g., !~leaking(gas)
+
+Test goals
+    👉 denoted by the '?' operator
+    👉 used to retrieve information that is available in the agent’s belief base
+    👉 ?bank_balance(BB) 
+        👆 will instantiate the logical variable BB to the BELIEVED 
+           bank balance
+    👉 e.g., ?coords(Target,X,Y) 👈 Target is already bound and X and Y are free
+    👉 if the test goal fails (i.e., the belief is not in the belief base), 
+       the WHOLE plan fails
+            👆 mechanism for handling plan failure will then be called upon, i.e.,
+               be careful with test goals
+
+Mental notes
+    👉 self reminder (sort of a mental note) 
+    👉 a promise/commitment
+    👉 or an interrupted task that may need to be resumed later
+    👉 e.g., [source(self)]
+
+Internal actions
+    👉 Jason's standard internal actions
+        👆 a standard internal action is denoted by an empty library name
+        👆 i.e., it has a '.' as its preffix
+        👆 e.g., .send 👈 used for inter-agent communication
+    👉 programmers are able to create internal actions
+
+Expressions
