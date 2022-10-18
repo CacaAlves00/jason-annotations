@@ -15,3 +15,14 @@ busy_until(john,autum). // 👈 has the same meaning
 
 // Worth noting: 👉 for beliefs originating from perceptual information,
 // the interpreter automatically adds an annotation 👉 source(percept)
+
+// We also can use annotations to filter the plan
++down_the_pub(Pub)[source(Agent)]
+: good_friend(Agent)
+<- !location(Pub).
+
++!contract(Agent)
+: trustworthy(Agent)[degOfCert(C)] & C>0.9
+<- ...
+
++!G[source(S)] : S \== goody.

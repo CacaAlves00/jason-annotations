@@ -1,0 +1,16 @@
+The reasoning cycle 👉 describes how the Jason interpreter runs an agent program
+
+Can be divided into 👉 10 main steps
+
+    👉 Perceiving the Environment
+    👉 Updating the Belief Base
+    👉 Receiving Communication from Other Agents
+    👉 Selecting 'Socially Acceptable' Messages
+    👉 Selecting an Event (perceived changes in the env or changes in the agent's own goals)
+        👆 in each reasoning cycle, only one pending event will be dealt with
+    👉 Retrieving All Relevant Plans to Handle the Event
+    👉 Determining the Applicable Plans
+    👉 Selecting One Applicable Plan
+    👉 Selecting an Intention for Further Execution
+    👉 Executing One Step of an Intention
+

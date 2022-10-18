@@ -1,0 +1,6 @@
+!g1. // initial goal
+
+@p1 +!g1 : true <- !g2(X); .print("end g1 ", X).
+@p1 +!g2 : true <- .fail.
+
+@f1 -!g2(failure) : true <- .print("in g2 failure").

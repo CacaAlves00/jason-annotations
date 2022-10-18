@@ -40,3 +40,7 @@ Internal actions
     👉 programmers are able to create internal actions
 
 Expressions
+    👉 each formula in the context and body of a plan must have a boolean value
+    👉 e.g., X >= Y*2;
+    👉 it can only carry on executing if this condition is satisfied
+    👉 i.e., if the condition fails, the plan fails
